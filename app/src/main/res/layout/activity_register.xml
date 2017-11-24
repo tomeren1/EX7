@@ -33,14 +33,15 @@
 
             android:ems="10"
             android:hint=""
-            android:textColor="#9a9494"
             android:textStyle="bold"
+
             android:fontFamily="serif"
             android:gravity="center"
-            android:inputType="textMultiLine"
+            android:inputType="textPersonName|textCapWords"
             android:layout_alignBottom="@+id/button"
             android:layout_toLeftOf="@+id/button"
             android:layout_toStartOf="@+id/button"
+
             />
 
 
@@ -69,20 +70,20 @@
 
         <EditText
             android:id="@+id/input2"
-            android:layout_width="100dp"
+            android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginRight="17dp"
             android:layout_weight="1"
 
             android:ems="10"
             android:hint=""
-            android:textColor="#9a9494"
-            android:textStyle="bold"
-            android:fontFamily="serif"
-            android:gravity="center"
-            android:inputType="textMultiLine"
 
-           />
+            android:textStyle="bold"
+
+            android:gravity="center"
+            android:inputType="textPersonName|textCapWords"
+
+            />
 
 
     </LinearLayout>
@@ -101,15 +102,15 @@
                 android:id="@+id/radioButton1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@+id/radioButton2"
-                android:layout_weight="1"
+
+
                 android:text="@string/RadioButton1" />
 
             <RadioButton
                 android:id="@+id/radioButton2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="@+id/radioButton1"
+
                 android:text="@string/RadioButton2" />
 
         </RadioGroup>
